@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>intrests page</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+
+    <style>
+        body  {
+            
+            background-color: whitesmoke;
+            
+          }
+        
+       
+    
+        
+
+    #dataimg {
+        width: 600px;
+        height: 300px;
+        padding: 10px;
+        border: 1px solid #aaaaaa;}
+
+        #img {
+            width: 600px;
+            height: 300px;
+            padding: 10px;
+            border: 1px solid #aaaaaa;}
+            
+            .button {
+                position:relative;
+                font-size: 30px;
+                background-color: whitesmoke;
+                border-radius: 20px;
+
+              
+              }
+              .NightMode {
+                color: white;
+                background-color: black;
+              }
+              .button2 {
+                position:relative;
+                font-size: 30px;
+                background-color: rgb(190, 174, 174);
+                border-radius: 20px;
+                
+              
+              }
+    </style>
+    <button  onclick="MF()">Try Dark Mode!</button>
+    <script>function MF() {
+var On = document.body;
+On.classList.toggle("NightMode");
+    } </script>
+</head>
+<body>
+    <P><h1><em>this is my interst page</em></h1></P>
+    <p><h2> One of my favorite interests is 'data visualization.' It is a significant aspect of the fields of data science and business analysis.</h2> </p>
+    <img id="dataimg"src="dataann.jpg" alt="this is a data photo">
+    <p><h2> Why is it important? Because it helps managers make informed decisions based on the data they see. Therefore, it is very important to present it clearly to the managers, choosing the right colors and designing effective dashboards. For example:</h2></p>
+    <img id="dataimg"src="ex.jpg" alt="this is an example for data photo">
+   <p> <h2>And I recently took a course about data visualization</h2></p> 
+   <img id="img"src="vis.jpg" alt="this is an example for data photo">
+   <p>
+    <a href="index.html">
+    <button class="button"> click here to go to the main page</button>
+    </a>
+    
+    <a href="mycon.html">
+        <button class="button2"> click here to go to the next page</button>
+        </a></p>
+    
+</html>
