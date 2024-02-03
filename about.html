@@ -3,86 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>about me</title>
+    <title>About Me</title>
     <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer></script>
     <style>
-    body  {
-      
-        background-color: whitesmoke;
-      
-           
-            
-           
-      }
-      #me {
-           width: 337px;
+        body {
+            background-image:url("bg.jpg");
+            background-size: 2200px 2000px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        
+        #me {
+            width: 337px;
             height: 300px;
             padding: 5px;
             border: 1px solid #aaaaaa;
-            align-self: center;}
+        }
 
-      h1 {
-        color: rgb(2, 2, 2);
-        text-align: center;
-      }
-      h2 {
-    
-        color: rgb(2, 2, 2);
-      
-        font-size: 25px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
-        
-            }
-        
-      #cv{
-        width: 50%;
-        height: 505px; 
-      }  
-      .button {
-        position:relative;
-        font-size: 30px;
-        background-color: whitesmoke;
-        border-radius: 20px;
-        
-      
-      }
-      .button2 {
-        position:relative;
-        font-size: 30px;
-        background-color: rgb(190, 174, 174);
-        border-radius: 20px;
-        
-      
-      }
+        h1 {
+            color: white;
+            text-align: center;
+        }
 
+        h2 {
+            color: white;
+            font-size: 25px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        #cv {
+            width: 50%;
+            height: 505px;
+            margin-top: 20px; 
+        }
+
+        .button, .button2 {
+            position: relative;
+            font-size: 30px;
+            border-radius: 20px;
+            margin-top: 20px; 
+        }
+
+        .button {
+            background-color: whitesmoke;
+        }
+
+        .button2 {
+            background-color: rgb(190, 174, 174);
+        }
     </style>
-    
 </head>
 
 <body>
-
-
-<
     <img id="me" src="myphoto4.jpg">
 
-  <p> <h1>Hello, my name is Abdulaziz Al-Fozan, and I am a student at Imam Muhammad bin Saud Islamic University.
-     I am expected to graduate in the coming months with a specialization in management information systems from the College of Business.
-      I currently reside in Riyadh, more specifically in the eastern part of the city, where I was born and raised. At this moment,
-       I am actively seeking cooperative training opportunities in the final months of my academic journey as a student.
-      </p>
+    <h1>Hello, my name is Abdulaziz Al-Fozan, and I am a student at Imam Muhammad bin Saud Islamic University.
+        I am expected to graduate in the coming months with a specialization in management information systems from the College of Business.
+        I currently reside in Riyadh, more specifically in the eastern part of the city, where I was born and raised.
+        At this moment, I am actively seeking cooperative training opportunities in the final months of my academic journey as a student.
+    </h1>
 
-    <p> <h2> here is my cv:</h2> </p>
+    <h2>Here is my CV:</h2>
 
-    <iframe id ="cv" src="aziz.pdf" frameborder="0"></iframe>
+    <iframe id="cv" src="aziz.pdf" frameborder="0"></iframe>
 
-   <p> <a href="index.html">
-        <button class="button"> click here to go to the main page</button>
-        </a>
-    </p>
-    <p> <a href="projects.html">
-        <button class="button2"> click here to go to the next page</button>
-        </a>
-    </p>
+    <p>
+      
+      <a href="index.html">
+          <button class="button">Previous Page</button>
+      </a>
+      <a href="projects.html">
+          <button class="button2">Next Page</button>
+      </a>
+  </p>
+  
 </body>
 </html>
